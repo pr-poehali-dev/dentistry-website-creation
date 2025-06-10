@@ -3,6 +3,7 @@ import ServicesSection from "@/components/ServicesSection";
 import AboutSection from "@/components/AboutSection";
 import TeamSection from "@/components/TeamSection";
 import ContactSection from "@/components/ContactSection";
+import WordExport from "@/components/WordExport";
 
 const Index = () => {
   return (
@@ -12,6 +13,7 @@ const Index = () => {
       <AboutSection />
       <TeamSection />
       <ContactSection />
+      <WordExport />
     </div>
   );
 };
