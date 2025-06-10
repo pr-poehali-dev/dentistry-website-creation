@@ -3,26 +3,26 @@ import Icon from "@/components/ui/icon";
 const features = [
   {
     icon: "Award",
-    title: "Опытные врачи",
+    title: "Опытные грумеры",
     description:
-      "Команда высококвалифицированных специалистов с опытом более 15 лет",
+      "Команда сертифицированных мастеров с опытом работы более 8 лет",
   },
   {
-    icon: "Microscope",
-    title: "Современное оборудование",
+    icon: "Scissors",
+    title: "Профессиональный инструмент",
     description:
-      "Новейшие технологии диагностики и лечения для максимального комфорта",
+      "Используем только качественные инструменты и косметику для животных",
   },
   {
     icon: "Clock",
-    title: "Удобное время",
-    description: "Работаем без выходных с 8:00 до 21:00 для вашего удобства",
+    title: "Удобный график",
+    description: "Работаем ежедневно с 9:00 до 20:00, предварительная запись",
   },
   {
-    icon: "CreditCard",
-    title: "Доступные цены",
+    icon: "Heart",
+    title: "Индивидуальный подход",
     description:
-      "Честные цены без скрытых доплат. Рассрочка и скидки постоянным клиентам",
+      "Учитываем особенности каждого питомца, создаем комфортные условия",
   },
 ];
 
@@ -36,9 +36,9 @@ const AboutSection = () => {
               Почему выбирают нас?
             </h2>
             <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-              Мы создали клинику, где каждый пациент чувствует себя комфортно и
-              уверенно. Наша миссия — сделать стоматологию доступной,
-              безболезненной и эффективной.
+              Мы создали груминг-салон, где каждый питомец чувствует себя
+              комфортно и безопасно. Наша цель — сделать вашего любимца красивым
+              и здоровым.
             </p>
 
             <div className="space-y-6">
@@ -64,13 +64,13 @@ const AboutSection = () => {
 
           <div className="relative">
             <img
-              src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=600&h=500&fit=crop"
-              alt="Современная стоматологическая клиника"
+              src="https://images.unsplash.com/photo-1518717758536-85ae29035b6d?w=600&h=500&fit=crop"
+              alt="Груминг-салон для животных"
               className="rounded-2xl shadow-xl"
             />
             <div className="absolute -top-6 -right-6 bg-white p-6 rounded-xl shadow-lg">
               <div className="text-center">
-                <div className="text-3xl font-bold text-blue-600 mb-1">4.9</div>
+                <div className="text-3xl font-bold text-blue-600 mb-1">4.8</div>
                 <div className="flex gap-1 mb-2">
                   {[...Array(5)].map((_, i) => (
                     <Icon
@@ -81,7 +81,7 @@ const AboutSection = () => {
                     />
                   ))}
                 </div>
-                <div className="text-sm text-gray-600">Рейтинг клиники</div>
+                <div className="text-sm text-gray-600">Рейтинг салона</div>
               </div>
             </div>
           </div>

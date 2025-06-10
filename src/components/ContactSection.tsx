@@ -12,7 +12,7 @@ const ContactSection = () => {
             Свяжитесь с нами
           </h2>
           <p className="text-xl text-gray-600">
-            Запишитесь на консультацию или задайте вопрос
+            Запишите своего питомца на груминг или задайте вопрос
           </p>
         </div>
 
@@ -30,7 +30,7 @@ const ContactSection = () => {
                 <div>
                   <h4 className="font-semibold text-gray-900 mb-1">Адрес</h4>
                   <p className="text-gray-600">
-                    г. Москва, ул. Примерная, д. 123, офис 45
+                    г. Москва, ул. Зоологическая, д. 15, помещение 3
                   </p>
                 </div>
               </div>
@@ -54,7 +54,7 @@ const ContactSection = () => {
                   <h4 className="font-semibold text-gray-900 mb-1">
                     Режим работы
                   </h4>
-                  <p className="text-gray-600">Пн-Вс: 08:00 - 21:00</p>
+                  <p className="text-gray-600">Пн-Вс: 09:00 - 20:00</p>
                   <p className="text-gray-600">Без выходных</p>
                 </div>
               </div>
@@ -65,7 +65,7 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900 mb-1">Email</h4>
-                  <p className="text-gray-600">info@dentist-clinic.ru</p>
+                  <p className="text-gray-600">info@grooming-salon.ru</p>
                 </div>
               </div>
             </div>
@@ -73,14 +73,14 @@ const ContactSection = () => {
 
           <div className="bg-white p-8 rounded-2xl shadow-lg">
             <h3 className="text-2xl font-semibold text-gray-900 mb-6">
-              Записаться на прием
+              Записать питомца
             </h3>
 
             <form className="space-y-6">
               <div className="grid md:grid-cols-2 gap-4">
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">
-                    Имя
+                    Ваше имя
                   </label>
                   <Input placeholder="Ваше имя" />
                 </div>
@@ -106,19 +106,19 @@ const ContactSection = () => {
                 <select className="w-full p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
                   <option>Выберите услугу</option>
                   <option>Консультация</option>
-                  <option>Лечение кариеса</option>
-                  <option>Отбеливание</option>
-                  <option>Имплантация</option>
-                  <option>Ортодонтия</option>
+                  <option>Стрижка</option>
+                  <option>Мытье и сушка</option>
+                  <option>Комплексный груминг</option>
+                  <option>СПА-процедуры</option>
                 </select>
               </div>
 
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-2">
-                  Комментарий
+                  Информация о питомце
                 </label>
                 <Textarea
-                  placeholder="Опишите ваши пожелания или вопросы"
+                  placeholder="Порода, возраст, особенности поведения"
                   rows={4}
                 />
               </div>
